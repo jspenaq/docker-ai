@@ -24,5 +24,6 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "google-adk==0.3.0",
     "litellm>=1.69.2",
+    "pytest>=8.3.5",
 ]
 
