@@ -1,0 +1,28 @@
+[project]
+name = "docker-ai"
+version = "0.1.0"
+description = "An intelligent CLI tool for managing Docker using natural language."
+authors = [
+    {name = "Juan Sebastian Peña", email = "jspenaq@unal.edu.co"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.0.0",
+    "python-dotenv>=1.0.0",
+    "google-adk==0.3.0",
+    "litellm>=1.69.2",
+]
+
